@@ -8,8 +8,8 @@ Fecha: Septiembre 2020
 
 clear all
 
-global path "C:\Users\jbermudez\OneDrive - SAR\2021\Notas técnicas y papers\Retorno Recaudatorio del Gasto"	//Inserte su dirección aquí
-global out "$path\Databases"
+global path ""	//Inserte la dirección de su computadora donde se encuentra localizada la base de datos.
+global out " "  //Inserte la dirección de su computadora donde desee guardar las estimaciones.
 cd "$path"
 
 use "data_multi.dta", replace
